@@ -62,4 +62,29 @@ ul li .btn{
   .card{
       display: inline-block;
       margin-left: 10px;
+      margin-bottom: 50px;
+    
   }
+  h2{
+      color:rgb(6, 69, 173);
+  }
+  .card-body{
+      margin-bottom: 10px;
+  }
+.card .btn{
+       display: flex;
+       justify-content: center;
+}
+.section1 img{
+    float: right;
+    height: 600px;
+    width: 600px;
+    padding-bottom: 40px;
+}
+.section1 .card{
+   margin-left: 800px;
+}
+
+#new{
+   margin-top: 100px;
+}
