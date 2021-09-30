@@ -63,6 +63,8 @@ ul li .btn{
       display: inline-block;
       margin-left: 10px;
       margin-bottom: 50px;
+      height:fit-content;
+    
     
   }
   .card-img-top {
