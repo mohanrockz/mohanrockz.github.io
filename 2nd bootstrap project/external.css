@@ -42,13 +42,24 @@ h4{
     margin: 0 auto;
     display: block;
 }
-@media (max-width:900px) {
+@media (max-width: 900px) {
     #img-container{
         width:450px;
-      
-
     }
 } 
+ 
+#img2{
+    width:900px;
+    margin: 0 auto;
+    display: block;
+}
+@media(max-width: 900px){
+    #img2{
+        width:450px;
+       
+    }
+    
+}
 .buy a{
     text-decoration: none;
     border-radius: 5px 5px;
@@ -67,19 +78,7 @@ h4{
     color: black;
 }
 
- 
-#img2{
-    width:900px;
-    margin: 0 auto;
-    display: block;
-}
-@media(max-width:900){
-    #img2{
-        width:450px;
-       
-    }
-    
-}
+
 
 .col4, .col5, .col6, .col7{
     text-align: center;
