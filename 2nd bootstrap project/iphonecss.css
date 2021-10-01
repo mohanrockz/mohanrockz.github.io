@@ -9,9 +9,9 @@ body{
     background-color: #333333;
 
 }
-ul{
+/* ul{
     text-align: left;
-}
+} */
 .navbar-brand img{
     width: 35px;
     height: 30px;
@@ -86,8 +86,19 @@ ul li .btn{
     height: 600px;
     width: 600px;
     padding-bottom: 40px;
-   
-   
+}
+@media (min-width: 500px) and (max-width: 1000px){
+    .section1 img{
+        width:auto;
+        margin: 0 auto;
+        
+    }
+}
+@media (min-width: 500px) and (max-width: 900px){
+    .section1 h2,p,ul,li{
+        text-align: center;
+      
+    }
 }
 .section1 .card{
    margin-left: 800px;
@@ -100,8 +111,4 @@ ul li .btn{
     text-align: center;
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.yoo{
-   
-    
 }

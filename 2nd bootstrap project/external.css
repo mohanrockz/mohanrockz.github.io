@@ -28,7 +28,7 @@ body{
   font-size: 220px;
   margin: 0 auto;
 }
-@media (max-width: 900px){
+@media (max-width: 900px) and (max-width:1000px){
 h1{
     font-size: 180px;
     text-align: center;
@@ -48,10 +48,12 @@ h4{
     margin: 0 auto;
     display: block;
 }
-@media (max-width: 900px) {
+@media (max-width: 900px) and (max-width:1000px){
     #img-container{
         width:450px;
+        position: static;
         height: 800px;
+
     }
 } 
  
@@ -60,7 +62,7 @@ h4{
     margin: 0 auto;
     display: block;
 }
-@media(max-width: 900px){
+@media(max-width: 900px) and (max-width:1000px){
     #img2{
         width:450px;
        
@@ -108,7 +110,7 @@ ul{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:white;
 }
-@media (max-width:900px){
+@media (max-width:900px) and (max-width:1000px){
 
     #head3,#head4,#head5,#head6{
         text-align: left;
