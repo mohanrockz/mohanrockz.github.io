@@ -38,12 +38,17 @@ h4{
 #img-container{
     width: 600px;
     height: 800px;
-    /* margin-left: 400px; */
     border-radius: 20px 20px;
-    text-align: center;
-    float: center;
-
+    margin: 0 auto;
+    display: block;
 }
+@media (max-width:900px) {
+    #img-container{
+        width:450px;
+      
+
+    }
+} 
 .buy a{
     text-decoration: none;
     border-radius: 5px 5px;
@@ -61,11 +66,21 @@ h4{
 .row4 .buy{
     color: black;
 }
+
+ 
 #img2{
-    width:1000px;
-    float: center;
-    text-align: center;
+    width:900px;
+    margin: 0 auto;
+    display: block;
 }
+@media(max-width:900){
+    #img2{
+        width:450px;
+       
+    }
+    
+}
+
 .col4, .col5, .col6, .col7{
     text-align: center;
     background-color:#1d1d1f;
