@@ -359,11 +359,11 @@ section {
   padding: 0;
 }
 
-.about .content ul li {
+/* .about .content ul li {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
-}
+} */
 
 .about .content ul strong {
   margin-right: 10px;
